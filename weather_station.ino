@@ -9,8 +9,8 @@ DHT dht(DHTPIN, DHTTYPE);
 #define MQ7PIN A0      // MQ-7 air quality sensor analog pin
 
 // Wi-Fi Credentials
-const char* ssid = "SwapnaHome";
-const char* password = "NoPassword$2022";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Create Web Server on port 80
 ESP8266WebServer server(80);
